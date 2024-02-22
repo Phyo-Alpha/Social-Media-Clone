@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Social Media App
 
-Currently, two official plugins are available:
+A modern looking social media application where users can post their best moments and share their lives with the rest of the world, and see what others post as well, and follow the story of others.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In this application, you can upload your story and reveal your voices to the world !
 
-## Expanding the ESLint configuration
+![1708621148682](image/README/1708621148682.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+# About
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+I build this project simply to learn about the modern frontend techstacks, using React.js, typescripts and tailwindcss, as well as modern UI library like Radix UI, to create a visually appeasing and mobile compactible react application, supported by Appwrite, a third-party backend software services, that provides features like database, storage for media, user authetication and server side functions, all in one packages.
+
+
+# Tech Stack
+
+- React
+- TypeScript
+- TailwindCSS
+- Radix UI
+- Appwrite
+- Vite
+
+## Try this example on your local
+
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will download the files and install the necessary dependencies automatically.
+
+Once it's done, go to the directory and run the following command to start the project:
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 in your browser to view the project.
